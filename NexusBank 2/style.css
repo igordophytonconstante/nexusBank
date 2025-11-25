@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #161616;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 80;
+  color: #27E07D;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #1C1F24;
+  border-bottom: 1px solid #2A2E35;
+}
+
+
+.logo {
+  color: #27E07D;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #27E07D;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hero Section */
+.actions {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.8rem;
+      justify-content: center;
+      align-items: center;
+      width: 10px;
+    justify-content: space-between;
+
+    }
+    .action-btn:hover {
+      border-color: #27E07D;
+      color: #27E07D;
+      background-color: #464646;
+    }
+.action-btn {
+      flex: 1;
+      background-color: transparent;
+      border: 1px solid #2A2E35;
+      border-radius: 12px;
+      padding: 1.2rem;
+      color: #FFFFFF;
+      font-size: 1rem;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+.btn-primary {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #27E07D;
+}
